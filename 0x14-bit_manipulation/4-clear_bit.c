@@ -19,14 +19,11 @@ int clear_bit(unsigned long int *n, unsigned int index)
 	{
 		return (-1);
 	}
-	
-	
+
 	number = ~(mask << index);
-		
+
 	poa = poa & number;
 	*n = poa;
-		
-	
-	return (1);
 
+	return (1);
 }
