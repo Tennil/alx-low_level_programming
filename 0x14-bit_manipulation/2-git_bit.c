@@ -1,12 +1,11 @@
 #include "main.h"
 
-
 /**
- * get_bit -  returns the value of a bit at a given index
- * @n: integer to be used
- * @index: used to get the value
- * Return: index or -1 if error occurs
- */
+* get_bit - gets value of binary at an index
+* @n: the number to convert
+* @index: the position to get
+* Return: the value, -1 if error
+*/
 
 int get_bit(unsigned long int n, unsigned int index)
 {
